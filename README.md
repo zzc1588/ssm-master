@@ -1,11 +1,3 @@
-
-# 手把手教你入门SSM框架开发
-
-关于SSM框架环境搭建，请点击这里前往我的博客：[SSM框架整合之环境搭建](http://tycoding.cn/2018/06/04/ssm/)
-由于本项目采用了maven，关于IDEA搭建maven项目过程请点击这里前往我的博客：[maven起步](http://tycoding.cn/2018/06/01/maven/)
-
-**如果觉得不错就点击右上角star鼓励一下作者吧！**
-
 # 关于项目
 
 ## 测试环境
@@ -628,44 +620,6 @@ public interface CustomerService extends BaseService<Customer> {
 * (end表示页面的最后一个页码，begin表示页面的第一个页码)
 ```
 
-之前有人会问道这个*头溢出*和*尾溢出*是什么意思？其实仔细看看，如果我们安装上面设计的算法逻辑：头溢出就是指当页数很多一直点击上一页，为避免出现第0页而设置的；那么尾溢出就如下图所示情况了：
-
-![](img/6.png)
-
-****
 
 
 
-# 综上
-
-到此为止，我们基本讲完了SSM框整合的过程，你是否看明白了呢？其实整合SSM框架并不难，按照这个思路，我们学习完SSM框架整合，就可以着手练习一些小项目了。详细过程，大家可以从我的项目源码中分析。
-
-
-
-# 项目运行截图
-
-![](img/img-1.png)
-
-
-
-![](img/img-2.png)
-
-
-
-![](img/img-3.png)
-
-<br/>
-
-# 交流
-
-如果大家有兴趣，欢迎大家加入我的Java交流群：671017003 ，一起交流学习Java技术。博主目前一直在自学JAVA中，技术有限，如果可以，会尽力给大家提供一些帮助，或是一些学习方法，当然群里的大佬都会积极给新手答疑的。所以，别犹豫，快来加入我们吧！
-
-<br/>
-
-# 联系
-
-If you have some questions after you see this article, you can contact me or you can find some info by clicking these links.
-
-- [Blog@TyCoding's blog](http://www.tycoding.cn)
-- [GitHub@TyCoding](https://github.com/TyCoding)
-- [ZhiHu@TyCoding](https://www.zhihu.com/people/tomo-83-82/activities)
